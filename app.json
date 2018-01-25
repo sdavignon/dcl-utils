@@ -1,0 +1,10 @@
+{
+  "name": "decentraland",
+  "description": "a detailed map of decentraland",
+  "repository": "https://github.com/sdavignon/dcl-utils",
+  "keywords": ["python", "server"],
+  "addons": ["scheduler:standard"],
+  "env": {
+    "VERBOSE_LOGGING": "false"
+  }
+}
