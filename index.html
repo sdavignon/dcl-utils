@@ -2,11 +2,25 @@
 <html>
 <head>
 <title>map of decentraland</title>
+  <script src='jquery-1.8.3.min.js'></script>
+	<script src='jquery.elevateZoom-3.0.8.min.js'></script>
 <meta name="description" content="Our first page">
 <meta name="keywords" content="decentraland map">
 </head>
 <body>
 
-<img src="/map/dist/decentraland_map.png">
+
+  
+  <img id="zoom_01" src="/map/dist/decentraland_map.png" data-zoom-image="/map/dist/decentraland_map.png"/>
+  
+  <script>
+    $('#zoom_01').elevateZoom({
+    zoomType: "inner",
+cursor: "crosshair",
+zoomWindowFadeIn: 500,
+zoomWindowFadeOut: 750
+   }); 
+</script>
+
 </body>
 </html>
