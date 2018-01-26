@@ -31,7 +31,7 @@ max_characters = 15
 
 # for making your own custom map.
 highlight_color = "Crimson"
-highlight_owner = "0xccd5089557ae6a2ba063e8720e725a6bf743b3e8"
+highlight_owner = "0x2b6247079ddd8e81b34093e911284253bd455ef6"
 
 
 
